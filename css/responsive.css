@@ -70,13 +70,13 @@
      }
 
      .card1 {
-         border-radius: 8px;
-         background: #FFF;
-         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-         margin-top: 19px;
-         height: 358px;
-         width: 93%;
-         margin-left: 12px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-top: 19px;
+        height: 372px;
+        width: 128%;
+        margin-left: -19px;
      }
 
  }
