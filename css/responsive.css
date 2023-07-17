@@ -51,7 +51,11 @@
      /* feature sectoin */
      .feature {
          flex-direction: column;
-     }
+     
+    }
+    .feature-content{
+       margin-top: -36%;
+    }
 
      .feature-img img {
          width: 129%;
@@ -77,7 +81,7 @@
         height: 372px;
         width: 128%;
         margin-left: -19px;
-     }
+    
 
  }
 
