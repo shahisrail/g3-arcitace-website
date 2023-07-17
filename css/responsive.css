@@ -1,0 +1,258 @@
+ /* responsive  mobile devices */
+ @media screen and (max-width:576px) {
+     header {
+         padding: 20px;
+     }
+
+     nav {
+         flex-direction: column;
+     }
+
+
+
+     nav>ul {
+         margin-top: 25px;
+         margin-bottom: 16px;
+         text-align: center;
+     }
+
+     /* teams sectoin */
+     .teams-container {
+         flex-direction: column;
+     }
+
+     .teams-img-container {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .teams-contain {
+         padding: 61px;
+         margin-top: -50px;
+     }
+
+     /* fact sectoin */
+     .fact-cad-container {
+         flex-direction: column;
+         gap: 20px;
+     }
+
+     .card {
+         width: 61%;
+
+     }
+
+
+     /* sponser sectoin */
+     .sponser-img {
+         flex-direction: column;
+
+     }
+
+     /* feature sectoin */
+     .feature {
+         flex-direction: column;
+     }
+
+     .feature-img img {
+         width: 129%;
+         margin-left: -30px
+     }
+
+     .tan-years {
+         position: static;
+         max-width: 202px;
+         margin-left: -32px
+     }
+
+     .tan-years h2 {
+         font-size: 50px;
+         margin: 0px;
+     }
+
+     .card1 {
+         border-radius: 8px;
+         background: #FFF;
+         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+         margin-top: 19px;
+         height: 358px;
+         width: 93%;
+         margin-left: 12px;
+     }
+
+ }
+
+
+
+ /* tablate or medium device */
+ @media screen and (min-width:576px) and (max-width:992px) {
+     header {
+         padding: 40px;
+     }
+
+     nav {
+         flex-direction: column;
+     }
+
+     nav>ul {
+         margin-top: 33px;
+         margin-bottom: 16px;
+     }
+
+     /* team sectoin */
+     .teams-container {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .teams-img-container {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 1.5rem;
+         margin-left: 122px;
+         padding: 4px;
+         width: 82%;
+     }
+
+
+     .teams-contain {
+         padding: 167px;
+         margin-top: -104px;
+
+
+     }
+     .feature-content{
+        margin-top: -56%;
+     }
+
+
+     /* fact sectoin */
+
+     .fact-cad-container {
+         display: grid;
+         gap: 20px;
+         grid-template-columns: repeat(2, 1fr);
+
+     }
+
+     .card {
+         margin: 1px;
+         width: 69%;
+         margin-left: 15px
+     }
+
+     /* spoonser sectoin */
+     .sponser-img {
+         flex-direction: column;
+     }
+
+     /* feature sectoin */
+     .feature {
+         flex-direction: column;
+     }
+
+     .feature-img img {
+         width: 129%;
+         margin-left: -55px;
+
+     }
+
+     .tan-years {
+         position: static;
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .tan-years h2 {
+         font-size: 50px;
+         margin: 0px;
+     }
+
+     .card1 {
+         border-radius: 8px;
+         background: #FFF;
+         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+         margin-top: 19px;
+         height: 100%;
+         width: 93%;
+         margin-left: 12px;
+     }
+
+ }
+
+ /* large device */
+ @media screen and (min-width:922px) and (max-width:1024px) {
+     header {
+         padding: 40px;
+     }
+
+     nav {
+         flex-direction: column;
+     }
+
+     nav>ul {
+         margin-top: 33px;
+         margin-bottom: 16px;
+     }
+
+     */
+
+     /* team sectoin */
+     .teams-container {
+         flex-direction: column;
+     }
+
+     .teams-img-container {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .teams-contain {
+         padding: 167px;
+         margin-top: -104px;
+     }
+
+     */
+
+     /* fact sectoin */
+     .fact-cad-container {
+         display: grid;
+         gap: 20px;
+         grid-template-columns: repeat(2, 1fr);
+
+     }
+
+     .card {
+         width: 74%;
+         margin-left: 21px
+     }
+ }
+
+ /*  xl device */
+ @media screen and (min-width:1024px) and (max-width:1280px) {
+     header {
+         padding: 40px;
+     }
+
+     nav {
+         flex-direction: column;
+     }
+
+     nav>ul {
+         margin-top: 33px;
+         margin-bottom: 16px;
+     }
+ }
+
+ /* 2xl device */
+ @media screen and (min-width:1280px) and (max-width:1536px) {
+     header {
+         padding: 40px;
+     }
+
+     nav {
+         flex-direction: column;
+     }
+
+     nav>ul {
+         margin-top: 33px;
+         margin-bottom: 16px;
+     }
+ }
