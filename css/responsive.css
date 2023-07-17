@@ -51,10 +51,10 @@
      /* feature sectoin */
      .feature {
          flex-direction: column;
-     
-    }
+     }
+    
     .feature-content{
-       margin-top: -36%;
+       margin-top: -44%;
     }
 
      .feature-img img {
@@ -85,7 +85,7 @@
 
  }
 
-
+ }
 
  /* tablate or medium device */
  @media screen and (min-width:576px) and (max-width:992px) {
@@ -124,7 +124,7 @@
 
      }
      .feature-content{
-        margin-top: -56%;
+        margin-top: -36%;
      }
 
 
